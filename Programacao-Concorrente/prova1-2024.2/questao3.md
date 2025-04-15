@@ -101,7 +101,6 @@ class Worker {
         System.out.println("Executando: " + req.getConteudo());
     }
 
-    @Override
     public void run() {
         while (true) {
             Request req = broker.getWork();

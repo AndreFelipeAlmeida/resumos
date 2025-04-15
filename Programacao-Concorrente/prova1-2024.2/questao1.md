@@ -44,7 +44,7 @@ int main(String args[]) {
     }
 
     System.out.println("Maior valor: " + maior);
-    printf("Menor valor: " + menor);
+    System.out.println("Menor valor: " + menor);
 }
 
 ```
