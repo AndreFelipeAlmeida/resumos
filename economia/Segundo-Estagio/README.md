@@ -73,11 +73,25 @@ Um bem normal é aquele cuja a quantidade demandada aumenta, ceteris paribus, co
 ## Bens inferiores
 são bens cuja a quantidade demandada diminui, ceteris paribus, quando a renda aumenta.
 
-# Bens substitutos
+## Bens substitutos
 dois bens para os quais, ceteris paribus, quando o preço de um aumenta a demanda do outro aumenta.
 
 # Bens complementares
 Bens para os quais o aumento no preço de um dos bens leba a uma redução da demanda pelo outro bem.
+
+## Bens Giffen
+Quando o preço sobe, a quantidade de demanda aumenta.
+
+O efeito renda é maior que o efeito substituição.
+
+Precisa ser um bem inferior.
+
+Não pode existir alternativas.
+
+# Bens de Veblen
+Quando o preço sobe, a quantidade de demanda aumenta.
+
+Bens de luxo. Sinal de exclusividade. Prestígio social.
 
 # LEI DA OFERTA E DA DEMANDA
 O preço de qualquer bem se ajusta para trazer a quantidade ofertada e a quantidade demandada desse bem para o equilíbrio
@@ -130,22 +144,57 @@ O preço transmite informações sobre o produto (se houver algum problema, o pr
 # MERCADO
 Grupo de compradores e vendedores que, por meio de suas interações efetivaas ou potenciais, determinam o preço de um produto ou de um conjunto de produtos.
 
-# CONCORRÊNCIAS
+# ESTRUTURA DE MERCADO
+Estruturas de mercado são formas como os mercados se organizam, influenciando preços, quantidade produzida e lucro das empresas.
+
+Depende de:
+- Número de vendedores e compradores
+- Tipo de produto (homogêneo ou diferenciado)
+- Barreiras de entrada e saída
+- Grau de controle sobre o preço
+
+
+| Estrutura | Nº de Empresas | Tipo de Produto | Controle do Preço | Barreiras de Entrada | Lucro no Longo Prazo | Exemplo |
+|-----------|----------------|----------------|-----------------|-------------------|--------------------|---------|
+| Concorrência Perfeita | Muitos | Homogêneo | Nenhum (tomador de preço) | Baixa | Zero | Agricultura (trigo, milho) |
+| Monopólio | 1 | Único / Sem substitutos próximos | Alto (formador de preço) | Alta | Positivo | Correios (cartas), energia elétrica |
+| Concorrência Monopolística | Muitos | Diferenciado | Moderado | Baixa | Tend. a zero | Restaurantes, roupas de marca, cafeterias |
+| Oligopólio | Poucos | Homogêneo ou Diferenciado | Alto | Média/Alta | Positivo | Indústria automobilística, telefonia, companhias aéreas |
+
+
 ## Concorrência Perfeita | Mercado Competitivo | Competição Perfeita
 Mercado perfeito é um bairro em que há muitos compradores e muitos vendedores, sempre em tal estado de learta e tão familiarizados com os negócios dos outros, que o preço de um produto é sempre praticamente o mesmo em todo o bairro.
 
-### Características Concorrência Perfeita
-- Muitos compradores e muitos vendedores
-- Os bens vendidos pelos vendedores são praticamente os mesmos. Cada comprador não tem grande poder sobre o preço do bem
-- Livre entrada e saída
 
-## Concorrência Monopolística | Mercado Monopólio | Competição Imperfeita
+Lucro no longo prazo: zero econômico, pois a livre entrada/saída ajusta o mercado.
+
+### Características:
+  - Muitos compradores e vendedores.
+  - Produtos homogêneos (iguais).
+  - Livre entrada e saída.
+  - Empresas tomadoras de preço (não podem influenciar o preço).
+
+### Exemplo: 
+- Agricultura (trigo, milho).
+
+##  Mercado Monopólio 
 Mercado Monopólio: Um mercado onde só existe um único vendedor de um determinado produto ou serviço que não tem substitutos próximos.
+
+Lucro no longo prazo: geralmente positivo, devido à barreira de entrada.
+
+### Características
+- Um único vendedor.
+- Produto sem substitutos próximos.
+- Barreira de entrada alta (legal, tecnológica ou econômica).
+- Empresa formadora de preço.
 
 ## Exemplo de Mercado Monopólio
 Correios em relação a cartas
 
-### Características Concorrência Monopolística
+## Concorrência Monopolística
+Lucro no longo prazo: tende a zero, porque novas empresas entram e competem.
+
+### Características
 - Muitos compradores e muitos vendedores
   - Nenhuma empresa domina sozinha o mercado, mas cada uma tem um pequeno poder sobre o preço.
 - Produtos diferenciados
@@ -158,10 +207,24 @@ Correios em relação a cartas
 - Concorrência baseada em fatores não-preço
   - Publicidade, marketing, qualidade do serviço, atendimento, promoções e localização são usados para atrair clientes.
 
+### Exemplo 
+- Restaurantes, cafeterias, roupas de marca.
+
 ## Mercado Oligiopólio
 Mercado Oligiopólio: uma estrutura de merca onde e tem poucos vendedores ofertando produtos similares ou até mesmo iguais.
 
 Cartel: Um grupo de empresas agindo conforme um acordo.
+
+Lucro no longo prazo: pode ser positivo, dependendo da competição e acordos entre empresas
+
+### Características
+- Poucos vendedores dominam grande parte do mercado.
+- Produtos podem ser homogêneos ou diferenciados.
+- Interdependência: decisões de uma empresa afetam as outras.
+- Barreira de entrada média a alta.
+
+### Exemplos
+Indústria de automóveis, telefonia, companhias aéreas
 
 # TEORIA DO CONSUMIDOR
 É um ramo da microeconomia que estuda como as pessoas escolhem o que comprar diante de recursos limitados (dinheiro) e preferências pessoais.
@@ -222,6 +285,144 @@ EFEITO TOTAL = EFEITO SUBSTITUIÇÃO + EFEITO RENDA
 Se o EFEITO SUBSTITUIÇÃO for o inverso DO EFEITO RENDA, não sabemos qual vai ser o efeito total sobre aquele produto.
 
 ## CUSTOS FIXOS
-Custos
+Custos que não variam com o nível de produção. O custo não varia independentemente da quantidade produzida.
+
+Custo fixo médio = Custos Fixos / Quantidade Produzida
 
 ## CUSTOS VARIÁVEIS
+Custo que variam quando o nível de produção varia
+
+Custo variável médio = Custos Variáveis / Quantidade Produzida
+
+## CUSTO MARGINAL
+Cm = ΔCT / ΔQ
+
+No ponto ótimo de produção, o custo marginal (Cm) se iguala à receita marginal (Rm).
+
+## CUSTO TOTAL
+Custo Total = Custo Fixo + Custo Variável
+Custo Total Médio = Custo Total / Quantidade produzida
+
+# A TRAGÉDIA DOS BENS COMUNS
+O problema onde uma terra era dividida para toda uma cidade de forma comum e os fazendeiros colocavam gado para pastar no local. Porém, com a prosperidade da cidade, mais fazendeiros chegaram e mais gado aparecia, deixando a terra quase infértil e sem tempo de se recuperar dos pastos. Dessa forma, as famílias irão perder suas cabeças de gado. A solução foi dividir as terras entre as famílias ou criar direito de propriedade.
+
+# EXTERNALIDADE
+O impacto das açÕes de uma pessoa sobre o bem-estar de terceiros que não participal de tal ação. Em outras palavras, são os efeitos colaterais sobre aas pessoas que não participam da ação.
+
+## Externalidade Positiva
+Pesquisas de novas tecnologias, restauração de locais históricos e etc
+
+## Externalidade Negativa
+Poluição
+
+# TEORIA DA FIRMA
+É o ramo da microeconomia que estuda como as empresas decidem:
+- Quanto produzir
+- Como produzir (tecnologia, mão de obra, insumos)
+- A que preço vender
+
+Objetivo central: maximizar o lucro → diferença entre a receita total e o custo total.
+
+Lucro(π) = Receita Total (RT) − Custo Total(CT)
+
+## Função de Produção
+
+Mostra a relação entre a quantidade de insumos usados e a quantidade de produto obtida.
+
+Q=f(L,K)
+
+Onde:
+- Q = quantidade produzida
+
+- L = trabalho (labor)
+
+- K = capital (máquinas, equipamentos)
+
+## Curto prazo x Longo prazo
+
+Curto prazo: pelo menos um fator de produção é fixo (ex.: máquinas).
+
+Longo prazo: todos os fatores são variáveis; a empresa pode mudar sua escala de produção.
+
+## Produto Total, Médio e Marginal
+
+Produto Total (PT): total produzido com certa quantidade de insumos.
+
+Produto Médio (PM):
+PM = PT / número de unidades do insumo
+
+Produto Marginal (Pm): quanto o PT aumenta ao usar mais uma unidade de insumo.
+Pm = ΔPT / Δinsumo
+
+## Lei dos Rendimentos Decrescentes:
+
+No curto prazo, aumentar um fator (mantendo outros fixos) leva a aumentos cada vez menores no produto marginal.
+
+## Receita Total, Médio e Marginal
+Receita Total (PT): total vendido vezes o preço.
+
+Receita Médio (PM):
+RM = RT / número total vendido
+
+Receita Marginal (Pm):
+Rm = ΔRT / Δquantidade
+
+- Se Rm > Cm → vale a pena produzir mais.
+
+- Se Rm < Cm → vale a pena produzir menos.
+
+# 📚 Falhas de Mercado, Falhas de Governo, Bens Comuns e Externalidades Negativas
+
+---
+
+## **1️⃣ Falhas de Mercado**
+Situações em que o mercado sozinho **não consegue alocar recursos de forma eficiente**.
+
+| Tipo | O que ocorre | Exemplo |
+|------|-------------|---------|
+| Externalidades | Custo ou benefício não refletido no preço | Poluição, vacinação |
+| Bens Públicos | Não excluíveis e não rivais → free rider | Faróis, defesa nacional |
+| Monopólios | Único ou poucos vendedores controlam preço/quantidade | Correios, energia elétrica |
+| Informação Assimétrica | Uma parte sabe mais que a outra → decisões ruins | Seguro saúde, carros usados |
+
+---
+
+## **2️⃣ Falhas de Governo**
+Quando a **intervenção do governo para corrigir o mercado gera ineficiência**.
+
+| Tipo | O que ocorre | Exemplo |
+|------|-------------|---------|
+| Subsídios mal planejados | Superprodução ou desperdício | Subsídios a combustíveis fósseis |
+| Burocracia excessiva | Aumenta custos e atrasos | Demora em licenças ou registros |
+| Regulação inadequada | Preço teto/mínimo distorcido | Controle de preços de alimentos |
+| Captura regulatória | Órgãos reguladores favorecem interesses privados | Grandes empresas manipulam regras |
+
+---
+
+## **3️⃣ Bens Comuns (Common Resources)**
+- **Definição:** Não excluível, mas rival → uso de um reduz a disponibilidade para outro.  
+- **Problema:** Superexploração (“tragédia dos comuns”)  
+- **Exemplos:** Pesca em rios, florestas públicas, água de rios e lagos  
+- **Soluções:**  
+  1. Regulamentação do uso (limites ou cotas)  
+  2. Propriedade privada ou concessão  
+  3. Incentivos para uso sustentável (taxas ou pagamento por serviços ambientais)
+
+---
+
+## **4️⃣ Externalidades Negativas**
+- **Definição:** Atividade de um agente gera **custos para terceiros** não refletidos no preço.  
+- **Exemplos:** Poluição do ar, barulho de indústrias, congestionamento  
+- **Soluções:**  
+  1. **Tributos ou impostos pigouvianos** → aumentam custo da atividade poluidora  
+  2. **Regulamentações diretas** → limites de poluição, padrões ambientais  
+  3. **Mercados de permissões negociáveis** → comprar/vender direito de poluir  
+  4. **Incentivos econômicos** → subsídios para tecnologias limpas ou energias renováveis
+
+---
+
+📌 **Resumo Rápido:**  
+- **Falha de mercado →** mercado sozinho não resolve problema social  
+- **Falha de governo →** intervenção cria ineficiência  
+- **Bens comuns →** risco de superexploração  
+- **Externalidade negativa →** custo social > custo privado → solução: impostos, limites, mercados ou incentivos
