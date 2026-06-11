@@ -1,42 +1,60 @@
-f1 = input()
-f2 = input()
-f3 = input()
-formulas = [f1, f2, f3]
+import math
+turnedOn = int(input())
+horas = [1, 2, 4, 8]
+minutos = [1, 2, 4, 8, 16, 32]
+ans = set()
 
-def check(poss: list):
-    for form in formulas:
-        pos1 = poss.index(form[0])
-        pos2 = poss.index(form[2])
-        if form[1] == "<" and pos1 > pos2:
-            return False
-        elif form[1] == ">" and pos1 < pos2:
-            return False
+def h_bin_num(bin):
+    result = 0
+    for i in range(len(bin)):
+        if bin[i] == 1:
+            result += horas[i]
+
+    return result
+
+def m_bin_num(bin):
+    result = 0
+    for i in range(len(bin)):
+        if bin[i] == 1:
+            result += minutos[i]
+
+    return result
+
+def check(horas, minutos):
+
+    if 0 <= h_bin_num(horas) <= 11:
+        if 0 <= m_bin_num(minutos) <= 59:
+            return True
     
-    return True
+    return False
 
-def backtracking(poss, idx):
-    if idx >= len(formulas):
-        if check(poss):
-            return poss
-        return "Impossible"
+def backtracking(horas, minutos, idx_h, idx_m, cont):
+    if cont == turnedOn:
+        if check(horas, minutos):
+            min = str(m_bin_num(minutos))
+            hor = h_bin_num(horas)
+            if len(min) == 1:
+                min = "0" + min
 
-    form = formulas[idx]
-    pos1 = poss.index(form[0])
-    pos2 = poss.index(form[2])
+            ans.add(f"{hor}:{min}")
+        return
 
-    if form[1] == "<" and pos1 > pos2:
-        for i in range(pos2, pos1):
-            poss[i], poss[i+1] = poss[i+1], poss[i]
-        return backtracking(poss, idx + 1)
+    horas_atualizadas = horas[:]
+    minutos_atualizados = minutos[:]
+
+    if idx_m < len(minutos):
+        minutos_atualizados[idx_m] += 1
+        backtracking(horas, minutos_atualizados, idx_h, idx_m + 1, cont + 1)
+        backtracking(horas, minutos, idx_h, idx_m + 1, cont)
     
-    elif form[1] == ">" and pos1 < pos2:
-        for i in range(pos1, pos2):
-            poss[i], poss[i+1] = poss[i+1], poss[i]
-        return backtracking(poss, idx + 1)
-    
-    else:
-        return backtracking(poss, idx + 1)
-    
-ans = backtracking(["A", "B", "C"], 0)
+    if idx_h < len(horas):
+        horas_atualizadas[idx_h] += 1
+        backtracking(horas_atualizadas, minutos, idx_h + 1, idx_m, cont + 1)
+        backtracking(horas, minutos, idx_h + 1, idx_m, cont)
 
-print("".join(ans))
+    return
+
+
+backtracking([0, 0, 0, 0], [0, 0, 0, 0, 0, 0], 0, 0, 0)
+
+print(list(ans))
